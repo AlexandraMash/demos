@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">IntegrationDemo</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <string name="youtube_demo">YouTube Demo</string>
+    <string name="twitter_demo">Twitter Demo</string>
+    <string name="facebook_demo">Facebook Demo</string>
+    <string name="google_demo">Google Demo</string>
+
+    <string name="message_signed_in_google_plus">User %1$s successfully signed in with Google Plus, email: %2$s</string>
+    <string name="message_sign_in_failed">Sign in failed: %s</string>
+    <string name="message_not_logged_in">Not logged in</string>
+    <string name="message_connection_failed">Connection failed</string>
+    <string name="message_cancelled">Authorization cancelled</string>
+    <string name="message_signed_in_facebook">User %s successfully signed in with Facebook</string>
+    <string name="message_signed_in_twitter">User %s successfully signed in with Twitter</string>
+    <string name="message_token_expired">Token expired</string>
+
+    <string name="sign_in">Sign in</string>
+    <string name="sign_out">Sign out</string>
+
+    <string name="facebook_app_id">381032095579318</string>
+</resources>

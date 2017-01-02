@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "354362348269",
+    "project_id": "youtubedemo-149119"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354362348269:android:b29b2d2cb189fbb4",
+        "android_client_info": {
+          "package_name": "com.zeal.integrationsdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354362348269-f858m07khc35urnlhbrv3q6c7pe1b7qb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zeal.integrationsdemo",
+            "certificate_hash": "C96DB006E750DD05C3AA1613928FB2BE37E251F9"
+          }
+        },
+        {
+          "client_id": "354362348269-n7cccdjb3dv2pg8plr3k786armongbe4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWABk6rpInkpOh28hTJzT1UFJCC8Elx_k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
