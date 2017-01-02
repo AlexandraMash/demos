@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Support Library Demo</string>
+
+    <string name="navigation_header">Navigation Drawer</string>
+    <string name="nav_item_tabs">Tabs</string>
+    <string name="nav_item_animation">Animation</string>
+    <string name="youtube_header">You Tube Demo</string>
+    <string name="recycler_header">Recycler</string>
+    <string name="animation_header">Animated Text</string>
+    <string name="empty_header">Empty</string>
+    <string name="options_item_share">Share</string>
+    <string name="options_item_info">Information</string>
+    <string name="share_hint">This is a secret project. You can not share with anyone.</string>
+    <string name="info">You know what you need to know</string>
+    <string name="fab_clicked">The bomb was activated</string>
+    <string name="cancel">Cancel</string>
+    <string name="contacts_permission_explanation">Contacts permission is required to show your contacts</string>
+    <string name="no_contacts">No contacts available</string>
+    <string name="start_animation">Start animation</string>
+</resources>
