@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:title="@string/nav_item_tabs"
+         android:id="@+id/nav_item_tabs"
+         android:icon="@drawable/ic_action_tabs"/>
+  <item android:title="@string/nav_item_animation"
+         android:id="@+id/nav_item_animation"
+         android:icon="@drawable/ic_action_player"/>
+</menu>

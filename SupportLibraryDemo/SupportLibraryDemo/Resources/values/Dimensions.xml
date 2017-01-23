@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <dimen name="drawer_width">240dp</dimen>
+  <dimen name="zero_dimen">0dp</dimen>
+  <dimen name="nav_header_height">130dp</dimen>
+  <dimen name="header_text_size">22sp</dimen>
+  <dimen name="elem_margin">10dp</dimen>
+  <dimen name="elem_padding">5dp</dimen>
+  <dimen name="small_margin">3dp</dimen>
+
+  <dimen name="fab_margin">16dp</dimen>
+  <dimen name="fab_elevation">6dp</dimen>
+  <dimen name="fab_translation">2dp</dimen>
+
+  <dimen name="card_corner_radius">4dp</dimen>
+  <dimen name="image_size">100dp</dimen>
+  <dimen name="card_margin">6dp</dimen>
+
+  <dimen name="text_size">18sp</dimen>
+  <dimen name="text_size_large">20sp</dimen>
+
+  <dimen name="dim_large_square">500dp</dimen>
+  <dimen name="dim_small_square">50dp</dimen>
+</resources>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lt_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shppandroid1.app.MainActivity">
+    <FrameLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/tv_empty"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/elem_margin"
+            android:gravity="center"
+            android:text="@string/no_contacts"
+            android:textSize="@dimen/text_size_large"
+        />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lst_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" />
+    </FrameLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

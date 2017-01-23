@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item android:title="@string/options_item_share"
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_action_share"
+        app:showAsAction="ifRoom|collapseActionView"/>
+  <item android:title="@string/options_item_info"
+        android:id="@+id/action_info"
+        app:showAsAction="never|withText"/>
+</menu>
