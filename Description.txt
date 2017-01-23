@@ -1,0 +1,77 @@
+2. Android Support Library Demo
+Xamarin.Android, Visual Studio
+
+Demo: Used the following components: Navigation drawer, Tabs, Floating action button, Recycler view, Swipe refresh, Card view, Snackbar, Toolbar
+
+Used Picasso for Image loading
+
+Used LoaderManager to load data from Contacts book
+
+Handled Permissions
+
+Used TransitionManager for simple animation
+
+3. Services integration
+Android, Android Studio
+
+YouTube
+
+Registered app in Developer Console for YouTube api
+Demo: Implemented youtube player that plays a specific video
+
+Materials:
+https://developers.google.com/youtube/android/player/
+
+Problems:
+Target api version: https://code.google.com/p/gdata-issues/issues/detail?id=6739
+Permission INTERNET has to be specified
+
+Login
+
+Google+
+Added google+ sign in api for the app in Developer console
+Demo: Implemented google+ sign in, obtaining profile, sign out
+
+Materials:
+https://developers.google.com/identity/sign-in/android/
+https://console.developers.google.com/projectselector/apis/library
+
+Facebook
+Created facebook developer account, registered application
+Demo: Added AppEventsLogger to track application usage (Facebook analytics), implemented facebook sign in, obtaining profile, sign out
+
+
+Materials:
+https://developers.facebook.com/docs/facebook-login/android
+Problems: obtaining key hash, need OpenSsl to be installed - http://shareprob.blogspot.com.by/2012/07/android-key-hash-for-facebook-app-its.html
+
+Test user: open_jauxrin_user@tfbnw.net - qwe12345
+
+Twitter
+Registered in Fabric
+Demo: implemented twitter sign in, obtaining profile, sign out
+
+Materials:
+https://docs.fabric.io/android/twitter/log-in-with-twitter.html
+http://kodesnippets.com/index.php/2016/07/03/twitter-integration-in-android-using-fabric/
+
+5. Xamarin.iOs
+Xamarin.iOS, Xamarin Studio
+
+Materials:
+https://www.youtube.com/watch?v=lEzGUmFalpQhttps://www.youtube.com/watch?v=lEzGUmFalpQ
+https://developer.xamarin.com/guides/ios/user_interface/
+https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/TableView_iPhone/TableViewCells/TableViewCells.html#//apple_ref/doc/uid/TP40007451-CH7-SW1
+https://developer.xamarin.com/api/namespace/MonoTouch.AddressBook/
+
+Demos: created layout using storyboard, implemented different types of navigation, implemented address book reading
+Fulfilled requirements:
+Navigation: tab-navigation, action by button click, sidebar navigation
+Storyboard: 2+ views, actions and outlets mapped in code
+UiTableView: read address book, display images, indexing by first letter, display in a custom component
+
+Questions:
+Is it good to use Action mappings - seems to be confusing
+
+Problems:
+Constraints and positioning; should add a permission descriptive string to Info.plist;
